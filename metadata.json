@@ -1,0 +1,13 @@
+{
+  "name": "CitizenConnect",
+  "description": "A platform for citizens to report local issues and for staff to manage and resolve them. Users can submit reports with photos and descriptions, track their status, and staff can manage reports through a dedicated dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "homepage": "https://samarmaharaj.github.io/citizenconnect",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
